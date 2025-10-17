@@ -1,0 +1,25 @@
+ 
+ body {
+        background-color: rgb(119, 119, 119);
+        color: rgb(0, 0, 0);
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50vh;
+        font-family: arial;
+        }
+        div.div {
+        border: 1px solid rgb(49, 49, 49);
+        background-color: rgb(153, 153, 144);
+        height: 200px;
+        width: 400px;       
+        border-radius: 15px;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5) ;
+        }
+        .div:hover {
+        transform: scale(1.2);
+        }
+        
